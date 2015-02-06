@@ -9,4 +9,5 @@ client.after(2000, function() {this.stop();      })
 	.after(1000, function() {this.clockwise(0.5) })
 	.after(2000, function() {this.stop()         })
 	.after(1000, function() {this.front(0.7)     })
+	.after(3000, function() {this.stop()         })
 	.after(2000, function() {this.land();        });
