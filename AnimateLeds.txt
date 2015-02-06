@@ -1,1 +1,0 @@
-var ardrone = require('ar-drone');
