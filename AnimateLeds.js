@@ -9,7 +9,7 @@ var animations = ['blinkGreenRed', 'blinkGreen', 'blinkRed', 'blinkOrange', 'sna
 
 client.takeOff()
 	
-	.after(3000, function() {
+	client.after(3000, function() {
 		var rand = parseInt(Math.random() * animations.length);
 	  	this.animateLeds(animations[rand], 10, 5);
 	 })
