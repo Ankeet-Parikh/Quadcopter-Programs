@@ -1,6 +1,6 @@
 var ardrone = require('ar-drone');
 var client = ardrone.createClient();
-client.takeoff
+client.takeoff();
 client
 	.after(3000,function(){
 	this.clockwise(.7);
